@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coding Monastry</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        .card:hover {
+            transform: scale(1.02);
+            transition: all 0.3s ease;
+        }
+    </style>
+
+</head>
+
+<body class="bg-black">
+
+    <!-- navbar created -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Coding Monastry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Our prices">Our prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Our-Courses">Our Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Contact Us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousal created -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="1pic.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to Coding Monastry</h5>
+                    <p>We help you in all type of Coding</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="11pic.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to Coding Monastry</h5>
+                    <p>We help you in all type of Coding</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="12pic.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to Coding Monastry</h5>
+                    <p>We help you in all type of Coding</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <section id="Our prices">
+        <div class="container border border-danger-subtle mt-5">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal text-white">Pricing</h1>
+                <p class="fs-5 text-primary">Quickly build an effective pricing table for your potential customers
+                    with this Bootstrap example. It’s built with default Bootstrap components and utilities with little
+                    customization.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small
+                                    class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul> <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for
+                                free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small
+                                    class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul> <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29<small
+                                    class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul> <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Our-Courses">
+        <h1 class="text-light  text-center mt-5 ">Our Courses</h1>
+
+
+
+        <!-- cards creation -->
+
+        <div class="container ">
+            <div class="row mb-2 mt-5">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static"> <strong
+                                class="d-inline-block mb-2  text-warning">Java Programming</strong>
+                            <h3 class="mb-0 text-white">Let begin the coding journey. </h3>
+                            <p class="card-text mb-auto text-danger">Learn Java from scratch. Covers OOPs, Collections,
+                                File Handling, and GUI.</p> <a href="#"
+                                class="icon-link gap-1 icon-link-hover stretched-link">
+                                <!-- ⭐ Star rating -->
+                                <div class="mb-2">
+                                    <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                </div>
+
+                                <!-- 📊 Progress bar -->
+                                <div class="progress mb-2" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 65%;"></div>
+                                </div>
+
+                                <!-- ✅ Enroll and ❤️ Like -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <button class="btn btn-sm btn-outline-light" onclick="enrollCourse()">Enroll
+                                        Now</button>
+                                    <button class="btn btn-sm btn-outline-danger" onclick="likeCourse(this)">
+                                        ❤️ <span class="like-count ">800</span>
+                                    </button>
+                                </div>
+
+                                <!-- 📘 Modal trigger -->
+                                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-info"
+                                    data-bs-toggle="modal" data-bs-target="#javaModal">
+                                    Continue reading
+                                    <svg class="bi" aria-hidden="true">
+                                        <use xlink:href="#chevron-right"></use>
+                                    </svg> </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="java.jpeg" alt="Java Programming" class="bd-placeholder-img " width="200"
+                                height="230">
+
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static"> <strong
+                                class="d-inline-block mb-2  text-warning">Python Programming</strong>
+                            <h3 class="mb-0 text-white">Let begin the coding journey. </h3>
+                            <p class="card-text mb-auto text-danger">Master Python for automation, AI/ML, data science,
+                                and web apps.</p> hon <a href="#"
+                                class="icon-link gap-1 icon-link-hover stretched-link">
+                                <!-- ⭐ Star rating -->
+                                <div class="mb-2">
+                                    <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                </div>
+
+                                <!-- 📊 Progress bar -->
+                                <div class="progress mb-2" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%;"></div>
+                                </div>
+
+                                <!-- ✅ Enroll and ❤️ Like -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <button class="btn btn-sm btn-outline-light" onclick="enrollCourse()">Enroll
+                                        Now</button>
+                                    <button class="btn btn-sm btn-outline-danger" onclick="likeCourse(this)">
+                                        ❤️ <span class="like-count">670</span>
+                                    </button>
+                                </div>
+
+                                <!-- 📘 Modal trigger -->
+                                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-info"
+                                    data-bs-toggle="modal" data-bs-target="#pythonModal">
+                                    Continue reading
+                                    <svg class="bi" aria-hidden="true">
+                                        <use xlink:href="#chevron-right"></use>
+                                    </svg> </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="python.jpeg" alt="" class="bd-placeholder-img " width="200" height="230">
+
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static"> <strong
+                                class="d-inline-block mb-2  text-warning">C / C++ Programming</strong>
+                            <h3 class="mb-0 text-white">Let begin the coding journey. </h3>
+                            <p class="card-text mb-auto text-danger">Foundational programming skills with memory
+                                management, OOP, and problem solving.</p> <a href="#"
+                                class="icon-link gap-1 icon-link-hover stretched-link">
+                                <!-- ⭐ Star rating -->
+                                <div class="mb-2">
+                                    <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                </div>
+
+                                <!-- 📊 Progress bar -->
+                                <div class="progress mb-2" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%;"></div>
+                                </div>
+
+                                <!-- ✅ Enroll and ❤️ Like -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <button class="btn btn-sm btn-outline-light" onclick="enrollCourse()">Enroll
+                                        Now</button>
+                                    <button class="btn btn-sm btn-outline-danger" onclick="likeCourse(this)">
+                                        ❤️ <span class="like-count">400</span>
+                                    </button>
+                                </div>
+
+                                <!-- 📘 Modal trigger -->
+                                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-info"
+                                    data-bs-toggle="modal" data-bs-target="#cppModal">
+
+
+
+                                    Continue reading
+                                    <svg class="bi" aria-hidden="true">
+                                        <use xlink:href="#chevron-right"></use>
+                                    </svg> </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="c.jpeg" alt="" class="bd-placeholder-img " width="200" height="230">
+
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static"> <strong
+                                class="d-inline-block mb-2  text-warning">DSA</strong>
+                            <h3 class="mb-0 text-white">Let begin the coding journey. </h3>
+                            <p class="card-text mb-auto text-danger">Data Structures & Algorithms for coding interviews
+                                and logical problem solving.</p> <a href="#"
+                                class="icon-link gap-1 icon-link-hover stretched-link">
+                                <!-- ⭐ Star rating -->
+                                <div class="mb-2">
+                                    <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                </div>
+
+                                <!-- 📊 Progress bar -->
+                                <div class="progress mb-2" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 85%;"></div>
+                                </div>
+
+                                <!-- ✅ Enroll and ❤️ Like -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <button class="btn btn-sm btn-outline-light" onclick="enrollCourse()">Enroll
+                                        Now</button>
+                                    <button class="btn btn-sm btn-outline-danger" onclick="likeCourse(this)">
+                                        ❤️ <span class="like-count">1034</span>
+                                    </button>
+                                </div>
+
+                                <!-- 📘 Modal trigger -->
+                                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-info"
+                                    data-bs-toggle="modal" data-bs-target="#dsaModal">
+
+
+
+
+                                    Continue reading
+                                    <svg class="bi" aria-hidden="true">
+                                        <use xlink:href="#chevron-right"></use>
+                                    </svg> </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="dsa.png" alt="" class="bd-placeholder-img " width="200" height="230">
+
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="moreCourses" style="display: none;">
+
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static"> <strong
+                                    class="d-inline-block mb-2  text-warning">Web Development</strong>
+                                <h3 class="mb-0 text-white">Let begin the coding journey. </h3>
+                                <p class="card-text mb-auto text-danger">Front-end & back-end (HTML, CSS, JS, React,
+                                    PHP, SQL). Build full-stack apps.</p> <a href="#"
+                                    class="icon-link gap-1 icon-link-hover stretched-link">
+
+                                    <!-- ⭐ Star rating -->
+                                    <div class="mb-2">
+                                        <span class="text-warning">&#9733;&#9733;&#9734;&#9734;&#9734;</span>
+                                    </div>
+
+                                    <!-- 📊 Progress bar -->
+                                    <div class="progress mb-2" style="height: 10px;">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;">
+                                        </div>
+                                    </div>
+
+                                    <!-- ✅ Enroll and ❤️ Like -->
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <button class="btn btn-sm btn-outline-light" onclick="enrollCourse()">Enroll
+                                            Now</button>
+                                        <button class="btn btn-sm btn-outline-danger" onclick="likeCourse(this)">
+                                            ❤️ <span class="like-count">20</span>
+                                        </button>
+                                    </div>
+
+                                    <!-- 📘 Modal trigger -->
+                                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-info"
+                                        data-bs-toggle="modal" data-bs-target="#webModal">
+
+
+
+
+
+
+                                        Continue reading
+                                        <svg class="bi" aria-hidden="true">
+                                            <use xlink:href="#chevron-right"></use>
+                                        </svg> </a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="webdev.jpg" alt="" class="bd-placeholder-img " width="200" height="230">
+
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static"> <strong
+                                    class="d-inline-block mb-2  text-warning">Data Analyst</strong>
+                                <h3 class="mb-0 text-white">Let begin the coding journey. </h3>
+                                <p class="card-text mb-auto text-danger">Master Excel, SQL, Python, Power BI, and
+                                    storytelling with real datasets.</p> <a href="#"
+                                    class="icon-link gap-1 icon-link-hover stretched-link">
+
+                                    <!-- ⭐ Star rating -->
+      <div class="mb-2">
+        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+      </div>
+
+      <!-- 📊 Progress bar -->
+      <div class="progress mb-2" style="height: 10px;">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 70%;"></div>
+      </div>
+
+      <!-- ✅ Enroll and ❤️ Like -->
+      <div class="d-flex justify-content-between mb-2">
+        <button class="btn btn-sm btn-outline-light" onclick="enrollCourse()">Enroll Now</button>
+        <button class="btn btn-sm btn-outline-danger" onclick="likeCourse(this)">
+          ❤️ <span class="like-count">150</span>
+        </button>
+      </div>
+
+      <!-- 📘 Modal trigger -->
+      <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-info"
+         data-bs-toggle="modal" data-bs-target="#dataModal">
+
+
+
+
+
+                                    Continue reading
+                                    <svg class="bi" aria-hidden="true">
+                                        <use xlink:href="#chevron-right"></use>
+                                    </svg> </a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="dataanalyst.jpeg" alt="" class="bd-placeholder-img " width="200" height="230">
+
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    </svg>
+                </div>
+            </div>
+            <!-- <div class="text-center mt-4"> -->
+            <!-- <button class="btn btn-outline-info mb-5" onclick="showMoreCourses()">More Courses...</button> -->
+            <!-- <button id="showMoreBtn" class="btn btn-outline-info mb-5" onclick="toggleCourses(true)">More Courses...</button> -->
+            <!-- <button id="showLessBtn" class="btn btn-outline-secondary d-none mb-5" onclick="toggleCourses(false)">Show Less</button> -->
+            <div class="text-center mt-4">
+                <button id="showMoreBtn" class="btn btn-outline-info mb-5" onclick="toggleCourses(true)">More
+                    Courses...</button>
+                <button id="showLessBtn" class="btn btn-outline-secondary mb-5" onclick="toggleCourses(false)"
+                    style="display: none;">Show Less</button>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="Contact Us">
+        <div class="container border border-primary">
+            <h1 class="text-light  text-center mt-5 ">Contact Us</h1>
+            <form class="p-5">
+                <div class="row my-3">
+                    <div class="col">
+                        <label for="inputName" class="form-label text-white"> First Name</label>
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="inputName" class="form-label text-white"> Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label text-white">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <!-- <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label text-white">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div> -->
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label text-white">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label text-white">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputCity" class="form-label text-white">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label text-white">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select><select id="inputState" class="form-select">
+                            <option selected disabled>Choose State</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman
+                                and Diu</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                            <option value="Ladakh">Ladakh</option>
+                            <option value="Lakshadweep">Lakshadweep</option>
+                            <option value="Puducherry">Puducherry</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label text-white">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <!-- <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter Email">
+                        <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Enter Password">
+                    </div> -->
+
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label text-white" for="exampleCheck1 ">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary"
+                        onclick="alert('Thank you for contacting us!')">Submit</button>
+                </form>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <footer class="py-5 text-center text-body-secondary bg-dark mt-5">
+        <p class="text-white">
+            Follow us:
+            <a href="#"><i class="bi bi-twitter text-info"></i></a>
+            <a href="#"><i class="bi bi-github text-light"></i></a>
+        </p>
+
+        <p class="text-white">Blog template built for <a href="https://getbootstrap.com/">Coding Monastry</a> by <a
+                href="https://x.com/mdo">Ashmita@Pramanick</a>.</p>
+        <p class="mb-0"> <a href="#">Back to top</a> </p>
+    </footer>
+
+
+
+
+
+    <script>
+        function showMoreCourses() {
+            document.getElementById("moreCourses").style.display = "flex";
+            // Optional: hide the button after showing
+            event.target.style.display = "none";
+        }
+    </script>
+
+
+    <script>
+        function toggleCourses(show) {
+            const moreSection = document.getElementById("moreCourses");
+            const showMoreBtn = document.getElementById("showMoreBtn");
+            const showLessBtn = document.getElementById("showLessBtn");
+
+            if (show) {
+                moreSection.style.display = "flex"; // Show the hidden courses
+                showMoreBtn.style.display = "none"; // Hide "More Courses" button
+                showLessBtn.style.display = "inline-block"; // Show "Show Less" button
+            } else {
+                moreSection.style.display = "none"; // Hide the extra courses
+                showMoreBtn.style.display = "inline-block"; // Show "More Courses"
+                showLessBtn.style.display = "none"; // Hide "Show Less"
+            }
+        }
+    </script>
+
+<!-- Modal for Java Programming -->
+<div class="modal fade" id="javaModal" tabindex="-1" aria-labelledby="javaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="javaModalLabel">Java Programming Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This course covers Java basics, OOPs concepts, Collections, File Handling, GUI with Swing, and JDBC. Perfect for beginners and intermediates!
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Python Programming -->
+<div class="modal fade" id="pythonModal" tabindex="-1" aria-labelledby="pythonModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="pythonModalLabel">Python Programming Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This course covers Python basics, automation, web scraping, data science, and introduction to machine learning.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for C/C++ Programming -->
+<div class="modal fade" id="cppModal" tabindex="-1" aria-labelledby="cppModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cppModalLabel">C / C++ Programming Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Learn core programming concepts like pointers, memory allocation, classes, and OOP with C and C++. Ideal for coding competitions and system programming.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for DSA -->
+<div class="modal fade" id="dsaModal" tabindex="-1" aria-labelledby="dsaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dsaModalLabel">DSA Course Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Learn Arrays, Linked Lists, Trees, Graphs, Searching, Sorting, Recursion, and more. Perfect for cracking coding interviews.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Web Development -->
+<div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="webModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="webModalLabel">Web Development Course Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Learn to build full-stack websites using HTML, CSS, JavaScript, React, PHP, and SQL. Ideal for freelancing and startups.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Data Analyst -->
+<div class="modal fade" id="dataModal" tabindex="-1" aria-labelledby="dataModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dataModalLabel">Data Analyst Course Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Learn real-world data analysis using Excel, SQL, Python, and Power BI. Build dashboards and extract insights.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
